@@ -1,0 +1,152 @@
+* {box-sizing: border-box;}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+header {
+  font-family: georgia;
+  float: left;
+  width: 25%;
+  padding: 20px;
+  margin-left: 55px; 
+  text-align: center;
+  color: white;
+  background: #4aaaa5;
+}
+
+nav {
+  clear: left;
+  height: 2px;
+  width: 960px;
+  padding: 8px; 
+  text-align: center;
+  color: white;
+  background: #4aaaa5;
+}
+
+
+section {
+  float: left;
+  width: 960px;
+  padding-top: 25px;
+  padding-left: 20px;
+  height: 510px;
+  background: #dddddd;
+}
+
+footer {
+  font-size: 10px;
+  width: 960px;
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+  padding: 25px;
+  clear: both;
+  background: #666666;
+}
+
+aside {
+  text-align: left;
+  float: left;
+  width: 270px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+article {
+text-align: left;
+float: left;
+height: 465px;
+width: 650px;
+padding: 10px;
+background: #fff;
+}
+
+
+img {
+float: left;
+}
+
+
+
+h1 {
+color: teal;
+text-align: left;
+float: top;
+font-size: 24px;
+font-style: bold;
+padding-left: 15px;
+}
+
+h2 {
+color: grey;
+font-family: arial;
+margin-left: 300px;
+float: left;
+text-align: left;
+font-size: 12px;
+}
+
+h3 {
+float: top;
+text-align: left;
+font-size: 13px:
+font-style:italic;
+background: #ccc;
+}
+
+h4 {
+height: 7px;
+font-size: 12px;
+color: grey;
+font-family: arial;
+}
+
+p {
+font-family: arial;
+font-size: 15px;
+text-align: left;
+}
+
+hr {
+height: 2px;
+background-color: grey;  
+}
+
+a {
+color: grey;
+text-decoration: none;
+}
+
+
+.icon {
+width: 60px;
+height: 60px;
+padding: 2px;  
+}
+
+.short {
+width: 600px;
+}
+
+.message {
+width: 600px;
+height: 130px;
+}
+
+#submit {
+background-color: #4aaaa5;
+color: white;
+font-family: arial;
+padding: 5px;
+}
+
+
+
+

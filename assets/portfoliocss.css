@@ -1,0 +1,21 @@
+section {
+  float: left;
+  width: 960px;
+  padding-top: 25px;
+  padding-left: 20px;
+  height: 700px;
+  background: #dddddd;
+}
+
+article {
+text-align: left;
+float: left;
+height: 650px;
+width: 650px;
+padding: 10px;
+background: #fff;
+}
+
+.title {
+display: show;
+}

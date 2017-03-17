@@ -64,7 +64,7 @@ aside {
 article {
 text-align: left;
 float: left;
-height: 465px;
+height: 665px;
 width: 650px;
 padding: 10px;
 background: #fff;
@@ -126,6 +126,11 @@ color: grey;
 text-decoration: none;
 }
 
+.image {
+height: 170px;
+width: 170px;
+}
+
 .pic {
 margin-right: 15px;
 width:250px;
@@ -157,6 +162,7 @@ padding: 5px;
 
 @media screen and (max-width: 960px) {
     /* new styles for this width (<= 960px) */
+.image {width: 155px; height: 155px;}
 header {margin-left: 165px;}
 aside {margin-left: 70px;}
 article {width: 260px; height: 1200px; margin-left: 150px;}

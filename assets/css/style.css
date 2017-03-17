@@ -4,9 +4,11 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: #333;
+
 }
 
 header {
+  position: relative;
   font-family: georgia;
   float: left;
   width: 25%;
@@ -124,6 +126,12 @@ color: grey;
 text-decoration: none;
 }
 
+.pic {
+margin-right: 15px;
+width:250px;
+height:180px;
+}
+
 
 .icon {
 width: 60px;
@@ -146,6 +154,42 @@ color: white;
 font-family: arial;
 padding: 5px;
 }
+
+@media screen and (max-width: 960px) {
+    /* new styles for this width (<= 960px) */
+.pic {width: 430px; height: 360px; margin-left: 15px;}
+aside {margin-left: 70px;}
+article {width: 480px; height: 800px; margin-left: 50px;}
+section {height: 860px; width: 960px;}
+nav {width: 960px;}
+footer {width: 960px;}
+p {font-size: 13px;}
+}
+
+@media screen and (max-width: 768px) {
+     /* new styles for this width (<= 768px) */
+.pic {width: 250px; height: 180px;}
+article {width: 700px; height: 400px; margin-left: 0px; padding-bottom: 15px;}
+section {width: 768px; height: 600px;}
+aside {clear: left; margin-top: 20px; padding-top: 0px; width: 700px; margin-left: 0px; height: 150px;}
+.icon {height: 50px; width: 50px;}
+nav {width: 768px;}
+footer {width: 768px;}
+}
+
+@media screen and (max-width: 640px) {
+    /* new styles for this width (<= 640px) */
+.pic {width: 550px; height: 440px; margin-left: 15px;}
+article {clear: left; width: 600px; height: 800px; margin-left: 0px; padding-bottom: 15px;}
+header {width: 640px; margin-left: 0px;}
+h2 {font-size: 18px; clear: left; margin-left: 220px;}
+section {width: 640px; height: 1000px;}
+aside {clear: left; width: 600px; padding-bottom: : 40px;}
+nav {width: 640px;}
+footer {width: 640px;}
+}
+
+
 
 
 

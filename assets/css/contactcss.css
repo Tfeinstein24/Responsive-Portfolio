@@ -1,0 +1,196 @@
+* {box-sizing: border-box;}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+
+}
+
+header {
+  position: relative;
+  font-family: georgia;
+  float: left;
+  width: 25%;
+  padding: 20px;
+  margin-left: 55px; 
+  text-align: center;
+  color: white;
+  background: #4aaaa5;
+}
+
+nav {
+  clear: left;
+  height: 2px;
+  width: 960px;
+  padding: 8px; 
+  text-align: center;
+  color: white;
+  background: #4aaaa5;
+}
+
+
+section {
+  float: left;
+  width: 960px;
+  padding-top: 25px;
+  padding-left: 20px;
+  height: 510px;
+  background: #dddddd;
+}
+
+footer {
+  font-size: 10px;
+  width: 960px;
+  color: white;
+  font-family: helvetica;
+  text-align: center;
+  padding: 25px;
+  clear: both;
+  background: #666666;
+}
+
+aside {
+  text-align: left;
+  float: left;
+  width: 270px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+article {
+text-align: left;
+float: left;
+height: 465px;
+width: 650px;
+padding: 10px;
+background: #fff;
+}
+
+
+img {
+float: left;
+}
+
+
+
+h1 {
+color: teal;
+text-align: left;
+float: top;
+font-size: 24px;
+font-style: bold;
+padding-left: 15px;
+}
+
+h2 {
+color: grey;
+font-family: arial;
+margin-left: 300px;
+float: left;
+text-align: left;
+font-size: 12px;
+}
+
+h3 {
+float: top;
+text-align: left;
+font-size: 13px:
+font-style:italic;
+background: #ccc;
+}
+
+h4 {
+height: 7px;
+font-size: 12px;
+color: grey;
+font-family: arial;
+}
+
+p {
+font-family: arial;
+font-size: 15px;
+text-align: left;
+}
+
+hr {
+height: 2px;
+background-color: grey;  
+}
+
+a {
+color: grey;
+text-decoration: none;
+}
+
+.pic {
+margin-right: 15px;
+width:250px;
+height:180px;
+}
+
+
+.icon {
+width: 60px;
+height: 60px;
+padding: 2px;  
+}
+
+.short {
+width: 600px;
+}
+
+.message {
+width: 600px;
+height: 130px;
+}
+
+#submit {
+background-color: #4aaaa5;
+color: white;
+font-family: arial;
+padding: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    /* new styles for this width (<= 960px) */
+.pic {width: 430px; height: 360px; margin-left: 15px;}
+.short {width: 450px;}
+.message {width: 450px;}
+aside {margin-left: 70px;}
+article {width: 480px; height: 470px; margin-left: 50px;}
+section {height: 540px; width: 960px;}
+nav {width: 960px;}
+footer {width: 960px;}
+p {font-size: 13px;}
+}
+
+@media screen and (max-width: 768px) {
+     /* new styles for this width (<= 768px) */
+.pic {width: 250px; height: 180px;}
+.short {width: 680px;}
+.message {width: 680px;}
+article {width: 700px; height: 480px; margin-left: 0px; padding-bottom: 15px;}
+section {width: 768px; height: 700px;}
+aside {clear: left; margin-top: 20px; padding-top: 0px; width: 700px; margin-left: 0px; height: 150px;}
+.icon {height: 50px; width: 50px;}
+nav {width: 768px;}
+footer {width: 768px;}
+}
+
+@media screen and (max-width: 640px) {
+    /* new styles for this width (<= 640px) */
+.short {width: 580px;}
+.message {width: 580px;}
+.pic {width: 550px; height: 440px; margin-left: 15px;}
+article {clear: left; width: 600px; height: 480px; margin-left: 0px; padding-bottom: 15px;}
+header {width: 640px; margin-left: 0px;}
+h2 {font-size: 18px; clear: left; margin-left: 220px;}
+section {width: 640px; height: 700px;}
+aside {clear: left; width: 600px; padding-bottom: : 40px;}
+nav {width: 640px;}
+footer {width: 640px;}
+}
